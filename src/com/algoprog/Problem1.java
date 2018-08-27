@@ -31,7 +31,7 @@ public class Problem1 {
             String[] coords = line.split(" ");
             Point dest = new Point(coords[0], coords[1], coords[2]);
             setDestination(dest);
-            stations.add(dest);
+            add_station(dest);
 
             br.readLine();
 
